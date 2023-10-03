@@ -359,20 +359,40 @@ function App() {
 
       <div className="myContainer">
         <div className="buttonMenu">
-          <div className="trangChu">
-            trang chủ
+          <div className="buttonItem">
+            <div>
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <p>Trang chủ</p>
+
           </div>
-          <div className="danhMuc">
-            danh mục
+          <div className="buttonItem">
+            <div>
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <p>Danh mục</p>
+
           </div>
-          <div className="thuongHieu">
-            thương hiệu
+          <div className="buttonItem">
+            <div>
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <p>Thương hiệu</p>
+
           </div>
-          <div className="gioHang">
-            giỏ hàng
+          <div className="buttonItem">
+            <div>
+              <i class="fa-solid fa-bell"></i>
+            </div>
+            <p>Thông báo</p>
+
           </div>
-          <div className="taiKhoan">
-            tai khoản
+          <div className="buttonItem">
+            <div>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <p>Tài khoản</p>
+
           </div>
         </div>
       </div>

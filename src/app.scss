@@ -207,5 +207,13 @@
     color: white;
     width: 412px;
     padding: 10px;
+    .buttonItem {
+      text-align: center;
+      cursor: pointer;
+      p {
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
   }
 }
