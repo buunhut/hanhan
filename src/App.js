@@ -369,10 +369,10 @@ function App() {
             thương hiệu
           </div>
           <div className="gioHang">
-            gioHang
+            giỏ hàng
           </div>
           <div className="taiKhoan">
-            taiKhoan
+            tai khoản
           </div>
         </div>
       </div>
