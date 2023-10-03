@@ -96,13 +96,13 @@ function App() {
               </div>
               <div className="giaSp">
                 <p className="giaBan">250,000</p>
-                <p className="giaVon">280,000</p>
+                {/* <p className="giaVon">280,000</p> */}
               </div>
               <div className="myButton">
                 <button>Thêm vào giỏ</button>
               </div>
               <div className="giamGia">
-                <p>-20%</p>
+                {/* <p>-20%</p> */}
               </div>
               <div className="heart">
                 <i class="fa-regular fa-heart"></i>
@@ -177,19 +177,18 @@ function App() {
               </div>
               <div className="giaSp">
                 <p className="giaBan">250,000</p>
-                <p className="giaVon">280,000</p>
+                {/* <p className="giaVon">280,000</p> */}
               </div>
               <div className="myButton">
                 <button>Thêm vào giỏ</button>
               </div>
               <div className="giamGia">
-                <p>-20%</p>
+                {/* <p>-20%</p> */}
               </div>
               <div className="heart">
                 <i class="fa-regular fa-heart"></i>
               </div>
               <div className="gif">
-                <i class="fa-solid fa-gift"></i>
               </div>
             </div>
           </div>

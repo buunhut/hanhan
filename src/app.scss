@@ -47,10 +47,14 @@
         border-radius: 16px;
         padding: 0 30px;
         border: none;
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 15px;
+        font-weight: 400;
+        color: black;
         &:focus {
           outline: none;
+        }
+        &::placeholder {
+          color: black;
         }
       }
       i {
@@ -62,7 +66,7 @@
     }
     .gioHang {
       position: absolute;
-      top: 35px;
+      bottom: 5px;
       right: 10px;
       i {
         color: white;
