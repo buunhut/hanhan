@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+@media screen and (max-width: 992px) {
+  .myContainer {
+    width: 400px;
+    margin: 20px auto;
+
+    .mainContent {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      background-color: whitesmoke;
+      margin: 90px 0;
+
+      .proItem {
+        width: 188px;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: relative;
+        .hinhAnh {
+          padding: 20px;
+          cursor: pointer;
+
+          img {
+            width: 100%;
+            margin: 0 auto;
+          }
+        }
+        .text {
+          padding: 10px;
+          cursor: pointer;
+
+          .tenSp {
+            margin-top: 10px;
+            p {
+              font-size: 15px;
+              font-weight: 400;
+            }
+          }
+          .giaSp {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            p.giaBan {
+              color: red;
+              font-weight: 500;
+            }
+            p.giaVon {
+              text-decoration: line-through;
+              color: silver;
+              font-weight: 500;
+            }
+          }
+          .myButton {
+            margin-top: 20px;
+            button {
+              background-color: red;
+              width: 100%;
+              height: 26px;
+              font-weight: 400;
+              color: white;
+              border: none;
+              border-radius: 20px;
+              cursor: pointer;
+              transition: all 0.3s;
+              &:hover {
+                background-color: rgb(204, 26, 26);
+              }
+            }
+          }
+          .giamGia {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            p {
+              color: white;
+              font-size: 12px;
+              font-weight: 400;
+              background-color: red;
+              padding: 3px 15px;
+              border-radius: 10px 0 10px 0;
+            }
+          }
+          .heart {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            cursor: pointer;
+
+            i {
+              color: rgb(112, 112, 112);
+              font-size: 14px;
+              text-align: center;
+              height: 24px;
+              width: 24px;
+              line-height: 24px;
+              border-radius: 50%;
+              background-color: rgb(215, 214, 214);
+            }
+          }
+          .gif {
+            position: absolute;
+            top: 30px;
+            right: 5px;
+            i {
+              color: red;
+              font-size: 14px;
+              text-align: center;
+              height: 24px;
+              width: 24px;
+              line-height: 24px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .topMenu {
+    position: fixed;
+    top: 0;
+    background-color: red;
+    color: white;
+    width: 400px;
+    z-index: 100;
+    .viTri {
+      padding-top: 10px;
+      cursor: pointer;
+      i {
+        margin-left: 10px;
+        color: white;
+      }
+      .myLogoViTri {
+        margin-left: 10px;
+      }
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      p {
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 5px;
+      }
+    }
+
+    .search {
+      width: 370px;
+      padding: 0 10px 5px 10px;
+      position: relative;
+      input {
+        margin-top: 5px;
+        height: 26px;
+        width: 100%;
+        border-radius: 16px;
+        padding: 0 30px;
+        border: none;
+        &:focus {
+          outline: none;
+        }
+      }
+      i {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: red;
+      }
+    }
+    .gioHang {
+      position: absolute;
+      top: 35px;
+      right: 10px;
+      i {
+        color: white;
+        font-size: 20px;
+      }
+    }
+  }
+  .buttonMenu {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 20px 0;
+    color: white;
+    width: 400px;
+  }
+}
